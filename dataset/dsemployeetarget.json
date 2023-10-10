@@ -1,0 +1,25 @@
+{
+	"name": "dsemployeetarget",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsemployeesource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "employeetarget.csv",
+				"folderPath": "target",
+				"fileSystem": "zelar"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

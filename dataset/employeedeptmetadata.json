@@ -1,0 +1,24 @@
+{
+	"name": "employeedeptmetadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsemployeesource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "employeedepartment",
+				"fileSystem": "zelar"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

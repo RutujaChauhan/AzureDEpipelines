@@ -1,0 +1,9 @@
+{
+	"name": "adfzelartraining",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5147417e-678e-455f-b3df-620112b6a5b8",
+		"tenantId": "c28ebd59-a842-4e64-b29c-e1ca7c272397"
+	}
+}
